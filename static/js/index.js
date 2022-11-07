@@ -19,10 +19,10 @@ async function loadPaymentForm() {
                 proccessPayment(cardFormData)
             }
         },
-        locale: 'en',
+        locale: 'es-AR',
         customization: {
             paymentMethods: {
-                maxInstallments: 5
+                "installments": 0
             },
             visual: {
                 style: {
