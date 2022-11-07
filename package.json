@@ -1,0 +1,19 @@
+{
+  "name": "card-payment-bricks-sample",
+  "version": "1.0.0",
+  "description": "A simple Mercado Pago Card Payment Bricks sample project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "hbs": "^4.1.2",
+    "mercadopago": "^1.5.14",
+    "open": "^8.4.0",
+    "path": "^0.12.7"
+  }
+}
